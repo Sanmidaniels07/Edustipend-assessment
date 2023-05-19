@@ -1,0 +1,99 @@
+.header-container{
+  background-color: white;
+  margin: 0.75rem auto;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid #757575;
+  width: 1100px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif
+}
+
+.header-btn{
+    color: black;
+    width: 90px;
+    height: 28px;
+    border: 1px solid #757575;
+    background-color: #f90;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    margin: auto;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header-fit{
+    display: flex;
+    justify-content: end;
+    margin: auto;
+}
+
+.header-contact-us{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 30px;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.header-btn:hover{
+    background-color: darkgrey;
+    color: white;
+}
+
+/* 
+@media only screen and (max-width: 480px) {
+    .header-container{
+        margin: auto;
+
+    }
+    .header-fit{
+    flex-direction: column;
+    }
+  }
+  
+  /* Styles for screens between 481px and 768px wide */
+  /* @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .header-container{
+        margin: auto;
+
+    }
+    .header-fit{
+    flex-direction: column;
+    }
+  } */
+  
+  /* Styles for screens between 769px and 1024px wide */
+  /* @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .header-container{
+        margin: auto;
+
+    }
+    .header-fit{
+    flex-direction: column;
+    }
+  }
+   */
+  /* Styles for screens between 1025px and 1200px wide */
+  /* @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .header-container{
+        margin: auto;
+
+    }
+    .header-fit{
+    flex-direction: column;
+    }
+  } */
+  
+  /* Styles for screens larger than 1200px */
+  /* @media only screen and (min-width: 1201px) {
+    .header-container{
+        margin: auto;
+
+    }
+    .header-fit{
+    flex-direction: row;
+    }
+  }  */

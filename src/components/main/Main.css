@@ -1,0 +1,143 @@
+.main-container{
+    display: flex;
+}
+
+.page-word{
+    margin-right: 200px;
+    margin-top: 90px;
+    }
+
+.party-fun{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+.create-playlist{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.btn-play{
+    color: black;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #757575;
+    background-color: #f90;
+    border-radius: 4px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    font-weight: 520;
+    cursor: pointer;
+}
+
+.btn-play:hover{
+    background-color: white;
+    color: black;
+}
+
+.card-playlist{
+    display: flex;
+    max-width: fit-content;
+    padding: 1rem;
+    background-color: #666;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left: 100px;
+}
+
+.card-title{
+    margin-block: 0;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.song-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    font-family: 400;
+}
+
+.btn-playlist{
+    display: flex;
+    width: fit-content;
+    margin-inline: auto;
+    background-color: white;
+    border: 1px solid #757575;
+    border-radius: 10px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+.btn-playlist:hover{
+    background-color: #f90;
+    color: black;
+}
+
+.icon{
+    margin: auto;
+}
+
+@media only screen and (max-width: 480px) {
+    .btn-playlist{
+        margin: auto;
+
+    }
+    .card-playlist{
+    flex-direction: column;
+    }
+  }
+  
+  /* Styles for screens between 481px and 768px wide */
+  /* @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .btn-playlist{
+        margin: auto;
+        flex-direction: column;
+
+    }
+    .card-playlist{
+    flex-direction: column;
+    margin: auto;
+
+    }
+  } */
+  
+  /* Styles for screens between 769px and 1024px wide */
+  /* @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .btn-playlist{
+        margin: auto;
+        flex-direction: column;
+    }
+    .card-playlist{
+    flex-direction: column;
+    margin: auto;
+    }
+  } */
+  
+  /* Styles for screens between 1025px and 1200px wide */
+  /* @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .btn-playlist{
+        margin: auto;
+        flex-direction: column;
+    }
+    .card-playlist{
+    flex-direction: column;
+    margin: auto;
+    }
+  } */
+  
+  /* Styles for screens larger than 1200px */
+  /* @media only screen and (min-width: 1201px) {
+    .btn-playlist{
+        margin: auto;
+        flex-direction: column;
+    }
+    .card-playlist{
+    flex-direction: column;
+    margin: auto;
+    }
+  } */
